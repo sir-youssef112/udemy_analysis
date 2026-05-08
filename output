@@ -1,0 +1,63 @@
+C:\Users\youss\PycharmProjects\PythonProject7\.venv\Scripts\python.exe C:\Users\youss\PycharmProjects\PythonProject12\main.py 
+   course_id  ...           subject
+0    1070968  ...  Business Finance
+1    1113822  ...  Business Finance
+2    1006314  ...  Business Finance
+3    1210588  ...  Business Finance
+4    1011058  ...  Business Finance
+
+[5 rows x 12 columns]
+**************************************************
+columns name:
+Index(['course_id', 'course_title', 'url', 'is_paid', 'price',
+       'num_subscribers', 'num_reviews', 'num_lectures', 'level',
+       'content_duration', 'published_timestamp', 'subject'],
+      dtype='object')
+**************************************************
+number of nulls:
+course_id              0
+course_title           0
+url                    0
+is_paid                0
+price                  0
+num_subscribers        0
+num_reviews            0
+num_lectures           0
+level                  0
+content_duration       0
+published_timestamp    0
+subject                0
+dtype: int64
+**************************************************
+number of duplicates:
+6
+**************************************************
+number of rows and columns: (3678, 12)
+**************************************************
+course_id                int64
+course_title            object
+url                     object
+is_paid                   bool
+price                    int64
+num_subscribers          int64
+num_reviews              int64
+num_lectures             int64
+level                   object
+content_duration       float64
+published_timestamp     object
+subject                 object
+dtype: object
+**************************************************
+check on duplicates rows:
+      course_id  ...           subject
+787      837322  ...  Business Finance
+788     1157298  ...  Business Finance
+894     1035638  ...  Business Finance
+1100    1084454  ...  Business Finance
+1473     185526  ...    Graphic Design
+2561      28295  ...   Web Development
+
+[6 rows x 12 columns]
+(3678, 12)
+
+Process finished with exit code 0
